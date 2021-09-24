@@ -1,3 +1,6 @@
+#!/bin/bash
+#clear
+#==============================================
 if [ "${EUID}" -ne 0 ]; then
 echo "You need to run this script as root"
 exit 1
@@ -24,14 +27,6 @@ mkdir /etc/v2ray
 mkdir /var/lib/premium-script
 clear
 
-#Add Domain / Subdomain
-read -p " Please input your domain/subdomain : " domain
-echo "$MYIP" >> /var/lib/premium-script/ipvps.conf
-echo "$domain" >> /etc/v2ray/domain
-echo ""
-echo ""Success ! domain/subdomain Has Been Add !"
-sleep 1
-clear
 #wget https://github.com/${GitUser}/
 cd
 GitUser="why-vpn"
