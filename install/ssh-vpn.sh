@@ -247,39 +247,39 @@ netfilter-persistent reload
 
 # download script
 cd /usr/bin
-wget -O add-host "https://raw.githubusercontent.com/why-vpn/menu/main/add-host.sh"
-wget -O about "https://raw.githubusercontent.com/why-vpn/menu/main/about.sh"
-wget -O menu "https://raw.githubusercontent.com/why-vpn/menu/main//menu.sh"
-wget -O usernew "https://raw.githubusercontent.com/why-vpn/menu/main/usernew.sh"
-wget -O trial "https://raw.githubusercontent.com/why-vpn/menu/main//trial.sh"
-wget -O hapus "https://raw.githubusercontent.com/why-vpn/menu/main/hapus.sh"
-wget -O member "https://raw.githubusercontent.com/why-vpn/menu/main/member.sh"
-wget -O delete "https://raw.githubusercontent.com/why-vpn/menu/main/delete.sh"
-wget -O cek "https://raw.githubusercontent.com/why-vpn/menu/main/cek.sh"
-wget -O restart "https://raw.githubusercontent.com/why-vpn/menu/main/restart.sh"
-wget -O speedtest "https://raw.githubusercontent.com/why-vpn/menu/main/speedtest_cli.py"
-wget -O info "https://raw.githubusercontent.com/why-vpn/menu/main/info.sh"
-wget -O ram "https://raw.githubusercontent.com/why-vpn/menu/main/ram.sh"
-wget -O renew "https://raw.githubusercontent.com/why-vpn/menu/main/renew.sh"
-wget -O autokill "https://raw.githubusercontent.com/why-vpn/menu/main/autokill.sh"
-wget -O ceklim "https://raw.githubusercontent.com/why-vpn/menu/main/ceklim.sh"
-wget -O tendang "https://raw.githubusercontent.com/why-vpn/menu/main/tendang.sh"
-wget -O clear-log "https://raw.githubusercontent.com/why-vpn/menu/main/clear-log.sh"
-wget -O change-port "https://raw.githubusercontent.com/why-vpn/menu/main/change.sh"
-wget -O port-ovpn "https://raw.githubusercontent.com/why-vpn/menu/main/port-ovpn.sh"
-wget -O port-ssl "https://raw.githubusercontent.com/why-vpn/menu/main/port-ssl.sh"
-wget -O port-wg "https://raw.githubusercontent.com/why-vpn/menu/main/port-wg.sh"
-wget -O port-tr "https://raw.githubusercontent.com/why-vpn/menu/main/port-tr.sh"
-wget -O port-sstp "https://raw.githubusercontent.com/why-vpn/menu/main/port-sstp.sh"
-wget -O port-squid "https://raw.githubusercontent.com/why-vpn/menu/main/port-squid.sh"
-wget -O port-ws "https://raw.githubusercontent.com/why-vpn/menu/main/port-ws.sh"
-wget -O port-vless "https://raw.githubusercontent.com/why-vpn/menu/main/port-vless.sh"
-wget -O wbmn "https://raw.githubusercontent.com/why-vpn/menu/main/webmin.sh"
-wget -O xp "https://raw.githubusercontent.com/why-vpn/menu/main/xp.sh"
-wget -O bannermenu "https://raw.githubusercontent.com/why-vpn/menu/main/bannermenu"
-wget -O update "https://raw.githubusercontent.com/why-vpn/menu/main/update.sh"
+wget -O add-host "https://raw.githubusercontent.com/why-vpn/bangke/menu/main/add-host.sh"
+wget -O about "https://raw.githubusercontent.com/why-vpn/bangke/menu/main/about.sh"
+wget -O bangke/menu "https://raw.githubusercontent.com/why-vpn/bangke/menu/main/bangke/menu.sh"
+wget -O usernew "https://raw.githubusercontent.com/why-vpn/bangke/menu/main/usernew.sh"
+wget -O trial "https://raw.githubusercontent.com/why-vpn/bangke/menu/main/trial.sh"
+wget -O hapus "https://raw.githubusercontent.com/why-vpn/bangke/menu/main/hapus.sh"
+wget -O member "https://raw.githubusercontent.com/why-vpn/bangke/menu/main/member.sh"
+wget -O delete "https://raw.githubusercontent.com/why-vpn/bangke/menu/main/delete.sh"
+wget -O cek "https://raw.githubusercontent.com/why-vpn/bangke/menu/main/cek.sh"
+wget -O restart "https://raw.githubusercontent.com/why-vpn/bangke/menu/main/restart.sh"
+wget -O speedtest "https://raw.githubusercontent.com/why-vpn/bangke/menu/main/speedtest_cli.py"
+wget -O info "https://raw.githubusercontent.com/why-vpn/bangke/menu/main/info.sh"
+wget -O ram "https://raw.githubusercontent.com/why-vpn/bangke/menu/main/ram.sh"
+wget -O renew "https://raw.githubusercontent.com/why-vpn/bangke/menu/main/renew.sh"
+wget -O autokill "https://raw.githubusercontent.com/why-vpn/bangke/menu/main/autokill.sh"
+wget -O ceklim "https://raw.githubusercontent.com/why-vpn/bangke/menu/main/ceklim.sh"
+wget -O tendang "https://raw.githubusercontent.com/why-vpn/bangke/menu/main/tendang.sh"
+wget -O clear-log "https://raw.githubusercontent.com/why-vpn/bangke/menu/main/clear-log.sh"
+wget -O change-port "https://raw.githubusercontent.com/why-vpn/bangke/menu/main/change.sh"
+wget -O port-ovpn "https://raw.githubusercontent.com/why-vpn/bangke/menu/main/port-ovpn.sh"
+wget -O port-ssl "https://raw.githubusercontent.com/why-vpn/bangke/menu/main/port-ssl.sh"
+wget -O port-wg "https://raw.githubusercontent.com/why-vpn/bangke/menu/main/port-wg.sh"
+wget -O port-tr "https://raw.githubusercontent.com/why-vpn/bangke/menu/main/port-tr.sh"
+wget -O port-sstp "https://raw.githubusercontent.com/why-vpn/bangke/menu/main/port-sstp.sh"
+wget -O port-squid "https://raw.githubusercontent.com/why-vpn/bangke/menu/main/port-squid.sh"
+wget -O port-ws "https://raw.githubusercontent.com/why-vpn/bangke/menu/main/port-ws.sh"
+wget -O port-vless "https://raw.githubusercontent.com/why-vpn/bangke/menu/main/port-vless.sh"
+wget -O wbmn "https://raw.githubusercontent.com/why-vpn/bangke/menu/main/webmin.sh"
+wget -O xp "https://raw.githubusercontent.com/why-vpn/bangke/menu/main/xp.sh"
+wget -O banner "https://raw.githubusercontent.com/why-vpn/bangke/menu/main/banner"
+wget -O update "https://raw.githubusercontent.com/why-vpn/bangke/menu/main/update.sh"
 chmod +x add-host
-chmod +x menu
+chmod +x bangke
 chmod +x usernew
 chmod +x trial
 chmod +x hapus
@@ -307,7 +307,7 @@ chmod +x port-ws
 chmod +x port-vless
 chmod +x wbmn
 chmod +x xp
-chmod +x bannermenu
+chmod +x banner
 chmod +x update
 echo "0 0 * * * root clear-log && reboot" >> /etc/crontab
 echo "0 0 * * * root xp" >> /etc/crontab
